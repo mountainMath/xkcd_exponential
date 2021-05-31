@@ -13,9 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-This repo has the code for the somewhat popular xkcd-style graphic I made. Anyone is welcome to use and adapt the code or graphic for their own purposes.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I have been thinking about how different people interpret data differently. And made this xkcd style graphic to illustrate this. <a href="https://t.co/a8LvlmZxT7">pic.twitter.com/a8LvlmZxT7</a></p>&mdash; Jens von Bergmann (@vb_jens) <a href="https://twitter.com/vb_jens/status/1372251931444350976?ref_src=twsrc%5Etfw">March 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+This repo has the code for [a somewhat popular xkcd-style graphic I made](https://twitter.com/vb_jens/status/1372251931444350976?s=20). Anyone is welcome to use and adapt the code or graphic for their own purposes.
 
 This code uses the [xkcd R package](https://cran.r-project.org/package=xkcd) to produce an xkcd-style graphic.
 
