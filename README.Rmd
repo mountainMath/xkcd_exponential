@@ -13,11 +13,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-This repo has the code for [a somewhat popular xkcd-style graphic I made](https://twitter.com/vb_jens/status/1372251931444350976?s=20). Anyone is welcome to use and adapt the code or graphic for their own purposes.
+This repo has the code for [a somewhat popular xkcd-style graphic I made](https://twitter.com/vb_jens/status/1372251931444350976?s=20). Anyone is welcome to use and adapt the code or graphic for their own purposes. In particular, people are welcome to adapt this to their local setting, either by translating or by changing the title from "Public Health" to "Politicians" as may be appropriate for in some jurisdictions.
 
-This code uses the [xkcd R package](https://cran.r-project.org/package=xkcd) to produce an xkcd-style graphic.
+This code uses the [xkcd R package](https://cran.r-project.org/package=xkcd) to produce an xkcd-style graphic. 
 
-```{r}
+```{r xkcd_exponential}
 library(tidyverse)
 library(xkcd)
 
