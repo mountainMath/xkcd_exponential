@@ -91,8 +91,8 @@ data <- tibble(x=seq(0,100)) %>%
 
 # boxes for highlighting different "phases" of exponential growth
 boxes <- bind_rows(
-  tibble(xmin=5,xmax=35,ymin=-2,ymax=10,x=20,y=20, name = "l2",value="Omicron"),
-  tibble(xmin=47,xmax=75,ymin=8,ymax=38,x=58,y=35, name = "l2",value="Omicron"),
+  tibble(xmin=5,xmax=35,ymin=-2,ymax=10,x=20,y=17, name = "l2",value="Omicron"),
+  tibble(xmin=47,xmax=75,ymin=8,ymax=38,x=58,y=32, name = "l2",value="Omicron"),
   tibble(xmin=83,xmax=100,ymin=70,ymax=150,x=70,y=130, name = "l2",value="Omicron"),
   tibble(xmin=5,xmax=35,ymin=35,ymax=55,x=20,y=65, name = "l1",value="We are\ndifferent"),
   tibble(xmin=47,xmax=78,ymin=35,ymax=75,x=58,y=65, name = "l1",value="But it's\nnmilder"),
